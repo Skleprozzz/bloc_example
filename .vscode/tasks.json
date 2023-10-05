@@ -1,0 +1,32 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "prepare_app",
+            "type": "shell",
+            "command": "bash scripts/format.sh"
+        },
+        {
+            "label": "pre-commit",
+            "type": "shell",
+            "command": "bash scripts/format.sh"
+        },
+        {
+            "label": "rebuild",
+            "type": "shell",
+            "command": "bash scripts/rebuild.sh"
+        },
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "bash scripts/build.sh"
+        },
+        {
+            "label": "watch",
+            "type": "shell",
+            "command": "bash scripts/watch.sh"
+        },
+    ],
+}

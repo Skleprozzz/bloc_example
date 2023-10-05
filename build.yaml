@@ -1,0 +1,12 @@
+targets:
+  $default:
+    sources:
+      include:
+        - pubspec.yaml
+        - lib/**.b.dart
+        - lib/**.f.dart
+        - lib/**.m.dart
+
+        - lib/**.r.dart
+        - $package$
+        - lib/$lib$
